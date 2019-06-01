@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "circular-std": "^1.0.0",
+    "emotion": "^10.0.9",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-emotion": "^10.0.0",
+    "react-intl": "^2.9.0",
     "react-scripts": "3.0.1"
   },
   "scripts": {
