@@ -3,5 +3,9 @@
   "sign_in_headline.title": "Log in",
   "school_picker.title": "Hoe heet je school?",
   "school_picker.search_input.placeholder": "Naam van je school...",
-  "school_picker.school_list.no_matching_schools": "Geen overeenkomende scholen gevonden"
+  "school_picker.school_list.no_matching_schools": "Geen overeenkomende scholen gevonden",
+  "platform_picker.title": "Welk platform wil je gebruiken?",
+  "platform_picker.platforms.CHALLENGEMONITOR": "Agora ChallengeMonitor",
+  "platform_picker.platforms.PROGRESSMONITOR": "Agora VoortgangsMonitor",
+  "platform_picker.go_back_button": "Terug naar schoolkeuze"
 }
