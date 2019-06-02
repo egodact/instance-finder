@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import SectionTitle from '../SectionTitle';
 import instances from '../../../instances.json';
+import FadableSection from './FadableSection';
 import SearchInput from './SearchInput';
 import SchoolList from './SchoolList';
 import NoMatchingSchools from './NoMatchingSchools';
@@ -10,10 +11,9 @@ import { FormattedMessage } from 'react-intl';
 
 const schools = instances.schools;
 
-const SchoolPicker = () => {
+const SchoolPicker = ({ active, onSchoolSelect, ...props }) => {
   const [searchQuery, setSearchQuery] = useState('');
   const [schoolListOpen, setSchoolListOpen] = useState(false);
-  const [selectedSchool, setSelectedSchool] = useState(null);
 
   const prepareForSearch = str => str.trim().toLowerCase();
 
@@ -22,7 +22,7 @@ const SchoolPicker = () => {
   );
 
   return (
-    <section>
+    <FadableSection faded={!active} {...props}>
       <SectionTitle>
         <FormattedMessage id="school_picker.title" />
       </SectionTitle>
@@ -32,6 +32,7 @@ const SchoolPicker = () => {
           setSearchQuery(e.target.value);
           setSchoolListOpen(true);
         }}
+        disabled={!active}
       />
       <SchoolList open={schoolListOpen}>
         {schoolsMatchingSearchQuery.length === 0 && (
@@ -46,7 +47,7 @@ const SchoolPicker = () => {
             onClick={() => {
               setSearchQuery(school.name);
               setSchoolListOpen(false);
-              setSelectedSchool(school.id);
+              onSchoolSelect(school.id);
             }}
             key={school.id}
           >
@@ -54,12 +55,17 @@ const SchoolPicker = () => {
           </School>
         ))}
       </SchoolList>
-    </section>
+    </FadableSection>
   );
 };
 
 SchoolPicker.propTypes = {
-  setSchool: PropTypes.func.isRequired
+  active: PropTypes.bool,
+  onSchoolSelect: PropTypes.func.isRequired
+};
+
+SchoolPicker.defaultProps = {
+  active: true
 };
 
 export default SchoolPicker;

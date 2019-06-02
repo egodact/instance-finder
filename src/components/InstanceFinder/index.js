@@ -5,13 +5,20 @@ import SignInHeadline from './SignInHeadline';
 import SchoolPicker from './SchoolPicker';
 
 const InstanceFinder = () => {
-  const [school, setSchool] = useState(null);
+  const [selectedSchool, setSelectedSchool] = useState(null);
+  const [schoolPickerActive, setSchoolPickerActive] = useState(true);
 
   return (
     <ContentWrapper>
       <SignInHeadline />
       <ContentCard>
-        <SchoolPicker setSchool={setSchool} />
+        <SchoolPicker
+          active={schoolPickerActive}
+          onSchoolSelect={(schoolId) => {
+            setSelectedSchool(schoolId);
+            setSchoolPickerActive(false);
+          }}
+        />
       </ContentCard>
     </ContentWrapper>
   );
