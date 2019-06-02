@@ -2,5 +2,6 @@
   "page_title": "Log in in Egodact software",
   "sign_in_headline.title": "Log in",
   "school_picker.title": "Hoe heet je school?",
-  "school_picker.search_input.placeholder": "Naam van je school..."
+  "school_picker.search_input.placeholder": "Naam van je school...",
+  "school_picker.school_list.no_matching_schools": "Geen overeenkomende scholen gevonden"
 }
