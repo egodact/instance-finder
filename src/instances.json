@@ -1,0 +1,71 @@
+{
+  "instances": {
+    "schools": [
+      {
+        "id": "agora-roermond",
+        "name": "Agora Roermond",
+      },
+      {
+        "id": "niekee",
+        "name": "Niekée"
+      },
+      {
+        "id": "montessori-grb",
+        "name": "10-15 Agora Groesbeek"
+      },
+      {
+        "id": "montessori-nijm",
+        "name": "MC Agora Nijmegen"
+      },
+      {
+        "id": "ravelijn",
+        "name": "'t Ravelijn",
+      },
+      {
+        "id": "zuyd",
+        "name": "Zuyd Hogeschool (International Business)"
+      },
+      {
+        "id": "culemborg",
+        "name": "KWC Culemborg"
+      },
+      {
+        "id": "vns",
+        "name": "Valley New School"
+      }
+    ],
+    "urls": {
+      "agora-roermond": {
+        "CHALLENGEMONITOR": "https://agoracm.egodact.com",
+        "PROGRESSMONITOR": "https://agoravm.egodact.com"
+      },
+      "niekee": {
+        "PROGRESSMONITOR": "https://niekeevm.egodact.com"
+      },
+      "montessori-grb": {
+        "CHALLENGEMONITOR": "https://10-15-agoracm.egodact.com",
+        "PROGRESSMONITOR": "https://10-15-agoravm.egodact.com"
+      },
+      "montessori-nijm": {
+        "CHALLENGEMONITOR": "https://mc-agoracm.egodact.com",
+        "PROGRESSMONITOR": "https://mc-agoravm.egodact.com"
+      },
+      "ravelijn": {
+        "CHALLENGEMONITOR": "https://ravelijncm.egodact.com",
+        "PROGRESSMONITOR": "https://ravelijnvm.egodact.com"
+      },
+      "zuyd": {
+        "CHALLENGEMONITOR": "https://ravelijncm.egodact.com",
+        "PROGRESSMONITOR": "https://ravelijnvm.egodact.com"
+      },
+      "culemborg": {
+        "CHALLENGEMONITOR": "https://culemborgcm.egodact.com",
+        "PROGRESSMONITOR": "https://culemborgvm.egodact.com"
+      },
+      "vns": {
+        "CHALLENGEMONITOR": "https://vns-cm.egodact.com",
+        "PROGRESSMONITOR": "https://vns-pm.egodact.com"
+      }
+    }
+  }
+}
