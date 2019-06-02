@@ -7,6 +7,7 @@ const StyledInput = styled('input')({
   backgroundColor: '#EBEBEB',
   border: 0,
   borderBottom: '1px solid rgba(0, 0, 0, .42)',
+  borderRadius: 0,
   borderTopLeftRadius: 4,
   borderTopRightRadius: 4,
   boxSizing: 'border-box',
