@@ -4,6 +4,7 @@ import ContentCard from './ContentCard';
 import SignInHeadline from './SignInHeadline';
 import SchoolPicker from './SchoolPicker';
 import PlatformPicker from './PlatformPicker';
+import Footer from './Footer';
 
 const InstanceFinder = () => {
   const [selectedSchool, setSelectedSchool] = useState(null);
@@ -27,6 +28,7 @@ const InstanceFinder = () => {
           />
         }
       </ContentCard>
+      <Footer />
     </ContentWrapper>
   );
 };

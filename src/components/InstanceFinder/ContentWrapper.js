@@ -11,8 +11,11 @@ const ContentWrapper = styled('main')({
     position: 'relative',
     top: 'unset',
     left: 'unset',
+    minHeight: '100vh',
     maxHeight: 'none',
-    transform: 'none'
+    transform: 'none',
+    display: 'flex',
+    flexDirection: 'column'
   }
 });
 
