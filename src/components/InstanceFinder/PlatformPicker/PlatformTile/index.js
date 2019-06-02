@@ -4,12 +4,11 @@ import { white } from '../../../../styles/colors';
 import PlatformTileName from './PlatformTileName';
 
 const PlatformTile = styled('a')({
-  padding: 12,
+  padding: '36px 12px',
   marginRight: 24,
   flex: 1,
   textAlign: 'center',
   color: '#0F4E8B',
-  fontFamily: 'CircularStd',
   backgroundColor: '#EEEEEE',
   textDecoration: 'none',
   borderRadius: 4,

@@ -1,14 +1,10 @@
 body {
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'CircularStd', sans-serif;
   line-height: 1.5;
   background-color: #F6F7FB;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'CircularStd';
-}
-
-h1 {
+section h1 {
   font-size: 24px;
 }

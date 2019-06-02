@@ -4,7 +4,6 @@ const StyledInput = styled('input')({
   padding: '16px 12px',
   width: '100%',
   font: 'inherit',
-  fontFamily: 'CircularStd',
   backgroundColor: '#EBEBEB',
   border: 0,
   borderBottom: '1px solid rgba(0, 0, 0, .42)',
