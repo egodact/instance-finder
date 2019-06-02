@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { transition } from '../../../../styles/utils';
+import { transition, mediaQuery } from '../../../../styles/utils';
 import { white } from '../../../../styles/colors';
 import PlatformTileName from './PlatformTileName';
 
@@ -20,6 +20,13 @@ const PlatformTile = styled('a')({
   },
   ':last-child': {
     marginRight: 0
+  },
+  [mediaQuery(480)]: {
+    marginRight: 0,
+    marginBottom: 24,
+    ':last-child': {
+      marginBottom: 0
+    }
   }
 });
 

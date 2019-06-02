@@ -4,7 +4,7 @@ import { transition } from '../../../styles/utils';
 const BackButton = styled('button')({
   marginTop: 24,
   padding: 0,
-  float: 'right',
+  marginLeft: 'auto',
   font: 'inherit',
   color: '#757575',
   background: 'none',

@@ -5,6 +5,12 @@ body {
   background-color: #F6F7FB;
 }
 
+@media screen and (max-width: 640px) {
+  body {
+    background-color: #FFFFFF;
+  }
+}
+
 section h1 {
   font-size: 24px;
 }

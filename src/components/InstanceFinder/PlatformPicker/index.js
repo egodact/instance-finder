@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import StyledSection from './StyledSection';
 import SectionTitle from '../SectionTitle';
 import { FormattedMessage } from 'react-intl';
 import instances from '../../../instances.json';
@@ -12,7 +13,7 @@ const PlatformPicker = ({ selectedSchool, onGoBack, ...props }) => {
   const urls = instances.urls[selectedSchool];
 
   return (
-    <section>
+    <StyledSection>
       <SectionTitle withMarginTop>
         <FormattedMessage id="platform_picker.title" />
       </SectionTitle>
@@ -33,7 +34,7 @@ const PlatformPicker = ({ selectedSchool, onGoBack, ...props }) => {
       <BackButton onClick={onGoBack}>
         <FormattedMessage id="platform_picker.go_back_button" />
       </BackButton>
-    </section>
+    </StyledSection>
   );
 };
 
