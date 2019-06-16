@@ -8,6 +8,7 @@ import SchoolList from './SchoolList';
 import NoMatchingSchools from './NoMatchingSchools';
 import School from './School';
 import { FormattedMessage } from 'react-intl';
+import sortSchools from './sortSchools';
 
 const schools = instances.schools;
 
@@ -42,7 +43,7 @@ const SchoolPicker = ({ active, onSchoolSelect, ...props }) => {
             />
           </NoMatchingSchools>
         )}
-        {schoolsMatchingSearchQuery.map(school => (
+        {schoolsMatchingSearchQuery.sort(sortSchools).map(school => (
           <School
             onClick={() => {
               setSearchQuery(school.name);
