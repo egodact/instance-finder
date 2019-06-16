@@ -31,6 +31,10 @@
     {
       "id": "vns",
       "name": "Valley New School"
+    },
+    {
+      "id": "prinsentuin",
+      "name": "Prinsentuin Andel"
     }
   ],
   "urls": {
@@ -64,6 +68,10 @@
     "vns": {
       "CHALLENGEMONITOR": "https://vns-cm.egodact.com",
       "PROGRESSMONITOR": "https://vns-pm.egodact.com"
+    },
+    "prinsentuin": {
+      "CHALLENGEMONITOR": "https://prinsentuin-cm.egodact.com",
+      "PROGRESSMONITOR": "https://prinsentuin-vm.egodact.com"
     }
   }
 }
