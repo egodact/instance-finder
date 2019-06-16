@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import styled from '@emotion/styled';
 import { transition, mediaQuery } from '../../../../styles/utils';
 import { white } from '../../../../styles/colors';
@@ -28,7 +29,24 @@ const PlatformTile = styled('a')({
       marginBottom: 0
     }
   }
+}, ({ href }) => {
+  if (href) {
+    return
+  };
+
+  return {
+    opacity: .7,
+    cursor: 'auto',
+    ':hover': {
+      color: '#0F4E8B',
+      backgroundColor: '#EEEEEE'
+    }
+  };
 });
+
+PlatformTile.propTypes = {
+  href: PropTypes.string
+};
 
 PlatformTile.Name = PlatformTileName;
 
