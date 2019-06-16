@@ -40,6 +40,7 @@ const SchoolPicker = ({ active, onSchoolSelect, ...props }) => {
           setSearchQuery(e.target.value);
           setSchoolListOpen(true);
         }}
+        onFocus={() => setSchoolListOpen(true)}
         disabled={!active}
       />
       <SchoolList open={schoolListOpen}>

@@ -8,7 +8,6 @@ const SearchInput = ({ intl, ...props }) => (
       intl.formatMessage({ id: 'school_picker.search_input.placeholder' })
     }
     type="text"
-    autoFocus
     {...props}
   />
 );
