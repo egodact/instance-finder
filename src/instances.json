@@ -35,6 +35,10 @@
     {
       "id": "prinsentuin",
       "name": "Prinsentuin Andel"
+    },
+    {
+      "id": "cottonwood",
+      "name": "Cottonwood ALC"
     }
   ],
   "urls": {
@@ -72,6 +76,10 @@
     "prinsentuin": {
       "CHALLENGEMONITOR": "https://prinsentuin-cm.egodact.com",
       "PROGRESSMONITOR": "https://prinsentuin-vm.egodact.com"
+    },
+    "cottonwood": {
+      "CHALLENGEMONITOR": "https://cottonwood-cm.egodact.com/",
+      "PROGRESSMONITOR": "https://cottonwood-pm.egodact.com/"
     }
   }
 }
