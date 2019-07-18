@@ -39,6 +39,10 @@
     {
       "id": "cottonwood",
       "name": "Cottonwood ALC"
+    },
+    {
+      "id": "kabakoo",
+      "name": "Kabakoo"
     }
   ],
   "urls": {
@@ -78,8 +82,12 @@
       "PROGRESSMONITOR": "https://prinsentuin-vm.egodact.com"
     },
     "cottonwood": {
-      "CHALLENGEMONITOR": "https://cottonwood-cm.egodact.com/",
-      "PROGRESSMONITOR": "https://cottonwood-pm.egodact.com/"
+      "CHALLENGEMONITOR": "https://cottonwood-cm.egodact.com",
+      "PROGRESSMONITOR": "https://cottonwood-pm.egodact.com"
+    },
+    "kabakoo": {
+      "CHALLENGEMONITOR": "https://challengemonitor-kabakoo.appspot.com",
+      "PROGRESSMONITOR": "https://progressmonitor-kabakoo.appspot.com"
     }
   }
 }
