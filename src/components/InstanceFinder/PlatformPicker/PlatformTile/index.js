@@ -29,19 +29,6 @@ const PlatformTile = styled('a')({
       marginBottom: 0
     }
   }
-}, ({ href }) => {
-  if (href) {
-    return
-  };
-
-  return {
-    opacity: .7,
-    cursor: 'auto',
-    ':hover': {
-      color: '#0F4E8B',
-      backgroundColor: '#EEEEEE'
-    }
-  };
 });
 
 PlatformTile.propTypes = {

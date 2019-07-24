@@ -3,15 +3,14 @@ import PropTypes from 'prop-types';
 import StyledSection from './StyledSection';
 import SectionTitle from '../SectionTitle';
 import { FormattedMessage } from 'react-intl';
-import instances from '../../../instances.json';
 import PlatformTypes from './PlatformTypes';
 import PlatformTilesWrapper from './PlatformTilesWrapper';
 import PlatformTile from './PlatformTile';
 import BackButton from './BackButton';
+import buildUrls from './buildUrls';
 
 const PlatformPicker = ({ selectedSchool, onGoBack, ...props }) => {
-  const urls = instances.urls[selectedSchool];
-
+  const urls = buildUrls(selectedSchool);
   return (
     <StyledSection>
       <SectionTitle withMarginTop>
