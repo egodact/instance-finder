@@ -9,15 +9,15 @@ import NoMatchingSchools from './NoMatchingSchools';
 import School from './School';
 import { FormattedMessage } from 'react-intl';
 import sortSchools from './sortSchools';
-import getCachedSelectedSchool from '../getCachedSelectedSchool';
+import getPreselectedSchool from '../getPreselectedSchool';
 import getSchoolNameFromId from './getSchoolNameFromId';
 
 const schools = instances.schools;
 
 const SchoolPicker = ({ active, onSchoolSelect, ...props }) => {
-  const cachedSelectedSchool = getCachedSelectedSchool();
-  const defaultSearchQuery = cachedSelectedSchool
-    ? getSchoolNameFromId(cachedSelectedSchool)
+  const preselectedSchool = getPreselectedSchool();
+  const defaultSearchQuery = preselectedSchool
+    ? getSchoolNameFromId(preselectedSchool)
     : '';
 
   const [searchQuery, setSearchQuery] = useState(defaultSearchQuery);
