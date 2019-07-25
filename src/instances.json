@@ -43,6 +43,10 @@
     {
       "id": "kabakoo",
       "name": "Kabakoo"
+    },
+    {
+      "id": "demo",
+      "name": "Demo"
     }
   ]
 }
