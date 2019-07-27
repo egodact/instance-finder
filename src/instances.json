@@ -47,6 +47,10 @@
     {
       "id": "demo",
       "name": "Demo"
+    },
+    {
+      "id": "pantagora",
+      "name": "PantAgora"
     }
   ]
 }
