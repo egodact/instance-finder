@@ -6,7 +6,7 @@ const SectionTitle = styled('h1')({
   marginBottom: 18,
   fontWeight: 400
 }, ({ withMarginTop }) => ({
-  marginTop: withMarginTop ? 18 : 0
+  marginTop: withMarginTop ? 24 : 0
 }));
 
 SectionTitle.propTypes = {
