@@ -51,6 +51,10 @@
     {
       "id": "pantagora",
       "name": "PantAgora"
+    },
+    {
+      "id": "dealschool",
+      "name": "Deal School"
     }
   ]
 }
