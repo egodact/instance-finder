@@ -55,6 +55,14 @@
     {
       "id": "dealschool",
       "name": "Deal School"
+    },
+    {
+      "id": "qrios",
+      "name": "Qrios"
+    },
+    {
+      "id": "met-leuven",
+      "name": "De MET Leuven"
     }
   ]
 }
