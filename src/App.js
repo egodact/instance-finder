@@ -1,7 +1,5 @@
 import React, { Fragment } from 'react';
-import { IntlProvider, addLocaleData } from 'react-intl';
-import locale_en from 'react-intl/locale-data/en';
-import locale_nl from 'react-intl/locale-data/nl';
+import { IntlProvider } from 'react-intl';
 import messages_nl from './translations/nl.json';
 import messages_en from './translations/en.json';
 import getLanguage from './getLanguage';
@@ -14,8 +12,6 @@ const messages = {
 };
 
 const language = getLanguage();
-
-addLocaleData([...locale_en, ...locale_nl]);
 
 const App = () => (
   <IntlProvider locale={language} messages={messages[language]}>

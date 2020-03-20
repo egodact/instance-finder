@@ -1,7 +1,9 @@
 import { useEffect } from 'react';
-import { injectIntl, intlShape } from 'react-intl';
+import { useIntl } from 'react-intl';
 
-const PageTitle = ({ intl }) => {
+const PageTitle = () => {
+  const intl = useIntl();
+
   useEffect(() => {
     document.title = intl.formatMessage({ id: 'page_title' });
   }, [intl]);
@@ -9,8 +11,4 @@ const PageTitle = ({ intl }) => {
   return null;
 };
 
-PageTitle.propTypes = {
-  intl: intlShape.isRequired
-};
-
-export default injectIntl(PageTitle);
+export default PageTitle;
