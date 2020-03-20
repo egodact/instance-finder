@@ -71,6 +71,14 @@
     {
       "id": "envision",
       "name": "Envisioning Studios"
+    },
+    {
+      "id": "agora-leiden",
+      "name": "Agora Leiden"
+    },
+    {
+      "id": "roercollege",
+      "name": "Roercollege (technasium)"
     }
   ]
 }
