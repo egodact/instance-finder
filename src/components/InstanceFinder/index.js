@@ -5,13 +5,13 @@ import SignInHeadline from './SignInHeadline';
 import SchoolPicker from './SchoolPicker';
 import PlatformPicker from './PlatformPicker';
 import Footer from './Footer';
-import getPreselectedSchool from './getPreselectedSchool';
+import getCachedSelectedSchool from './getCachedSelectedSchool';
 
 const InstanceFinder = () => {
-  const preselectedSchool = getPreselectedSchool();
-  const [selectedSchool, setSelectedSchool] = useState(preselectedSchool);
+  const cachedSelectedSchool = getCachedSelectedSchool();
+  const [selectedSchool, setSelectedSchool] = useState(cachedSelectedSchool);
   const [schoolPickerActive, setSchoolPickerActive] = useState(
-    !preselectedSchool
+    !cachedSelectedSchool
   );
 
   return (

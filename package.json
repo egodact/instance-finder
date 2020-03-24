@@ -2,7 +2,7 @@
   "name": "instance-finder",
   "version": "1.2.0",
   "private": true,
-  "homepage": "https://egodact.app/instance-finder",
+  "homepage": "https://egodact.app",
   "dependencies": {
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.11",
