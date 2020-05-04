@@ -79,6 +79,10 @@
     {
       "id": "roercollege",
       "name": "Roercollege (technasium)"
+    },
+    {
+      "id": "mitra-academy",
+      "name": "Mitra Academy"
     }
   ]
 }
