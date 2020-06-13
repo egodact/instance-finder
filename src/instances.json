@@ -83,6 +83,14 @@
     {
       "id": "mitra-academy",
       "name": "Mitra Academy"
+    },
+    {
+      "id": "agora-amsterdam",
+      "name": "Agora Amsterdam"
+    },
+    {
+      "id": "hvx",
+      "name": "HVX (Herbert Vissers eXplore)"
     }
   ]
 }
