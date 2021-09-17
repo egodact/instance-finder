@@ -49,10 +49,6 @@
       "name": "Deal School"
     },
     {
-      "id": "met-leuven",
-      "name": "De MET Leuven"
-    },
-    {
       "id": "envision",
       "name": "Envisioning Studios"
     },
@@ -77,10 +73,6 @@
       "name": "HVX (Herbert Vissers eXplore)"
     },
     {
-      "id": "met-katelijne",
-      "name": "De MET Katelijne"
-    },
-    {
       "id": "atelier-tienen",
       "name": "Het Atelier Tienen"
     },
@@ -91,6 +83,10 @@
     {
       "id": "raayland",
       "name": "Raayland College"
+    },
+    {
+      "id": "de-met",
+      "name": "De MET"
     }
   ]
 }
