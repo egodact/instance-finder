@@ -95,6 +95,14 @@
     {
       "id": "agora-curacao",
       "name": "Agora Curaçao"
+    },
+    {
+      "id": "lab",
+      "name": "LAB"
+    },
+    {
+      "id": "momentum",
+      "name": "Momentum"
     }
   ]
 }
