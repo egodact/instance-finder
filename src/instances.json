@@ -111,6 +111,14 @@
     {
       "id": "denova",
       "name": "De Nova"
+    },
+    {
+      "id": "commanderij",
+      "name": "Commanderij College"
+    },
+    {
+      "id": "pantagora-bovenbouw",
+      "name": "PantAgora Bovenbouw"
     }
   ]
 }
