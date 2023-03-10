@@ -119,6 +119,10 @@
     {
       "id": "pantagora-bovenbouw",
       "name": "PantAgora Bovenbouw"
+    },
+    {
+      "id": "brentwood",
+      "name": "Brentwood Academy"
     }
   ]
 }
